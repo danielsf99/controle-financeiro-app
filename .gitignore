@@ -1,0 +1,23 @@
+# ===== Android / Gradle =====
+.gradle/
+build/
+**/build/
+
+# ===== Android Studio / IntelliJ =====
+.idea/
+*.iml
+
+# ===== Kotlin / Java =====
+*.class
+
+# ===== Logs =====
+*.log
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
+
+# ===== Python =====
+venv/
+__pycache__/
+*.pyc
