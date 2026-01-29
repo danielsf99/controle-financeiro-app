@@ -1,8 +1,10 @@
-app = Flask(_name_)  # cria o servidor
+from flask import Flask
+
+app = Flask(__name__)  # cria o servidor
 
 @app.route("/")
 def home():
     return "Servidor Flask está funcionando!"
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     app.run()
